@@ -2,9 +2,10 @@ package main
 
 import (
 	"fmt"
+	"runtime"
 )
 
 func main() {
 
-	fmt.Println("HEllo there")
+	fmt.Printf("%s,%s", runtime.GOOS, runtime.GOARCH)
 }
