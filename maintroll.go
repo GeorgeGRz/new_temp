@@ -7,5 +7,5 @@ import (
 
 func main() {
 
-	fmt.Printf("%s,%s", runtime.GOOS, runtime.GOARCH)
+	fmt.Printf("%s,%s\n", runtime.GOOS, runtime.GOARCH)
 }
