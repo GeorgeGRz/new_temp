@@ -8,4 +8,5 @@ import (
 func main() {
 
 	fmt.Printf("%s,%s\n", runtime.GOOS, runtime.GOARCH)
+
 }
